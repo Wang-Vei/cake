@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+}
+.hd{
+    width: 1200px;
+    height: 113px;
+}
+.nav{
+    width: 1200px;
+    height: 80px;
+}
+.nav .navLeft{
+    width: 137px;
+    height: 80px;
+    border-radius: 0 40px 40px 0; 
+}
+.nav .navRight{
+    width: 830px;
+    height: 80px;
+    border-radius: 40px 0 0 40px;
+}
+.nav .navBar{
+    width: 540px;
+    height: 80px;
+    margin-left: 110px;
+}
+.nav .navBar .navBts{
+    width: 96px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;     
+}
+.nav .navBar p{
+    width: 96px;
+    height: 26px;
+}
+.nav .navBar .navBts:hover{
+    width: 96px;
+    height: 83px;
+    background-color: #f25e8f;
+}
+.nav .navBar .navBtsSelected{
+    width: 96px;
+    height: 83px;
+    background-color: #f25e8f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.nav .conBar{
+    width: 90px;
+    height: 80px;
+    margin-right: 20px;
+}
+.nav .conBar .shoppingCartNum{
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    top: -50%;
+    right: -50%;
+}

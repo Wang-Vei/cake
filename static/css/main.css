@@ -1,0 +1,259 @@
+/* base */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	display: block;
+}
+/* center */
+._center{
+    margin: 0 auto;
+}
+/* float */
+._floatLeft{
+    float: left;
+}
+._floatRight{
+    float: right
+}
+/* flex */
+._flaxLeft{
+    display: flex;
+    justify-content: flex-start;
+}
+._flaxCenter{
+    display: flex;
+    justify-content: center;
+}
+._flaxBetween{
+    display: flex;
+    justify-content: space-between;
+}
+._flaxAround{
+    display: flex;
+    justify-content: space-around;
+}
+._flaxRight{
+    justify-content: flex-end;
+}
+._flaxAlignCenter{
+    display: flex;
+    align-items: center;
+}
+/* cursor */
+._pointer{
+    cursor: pointer; 
+}
+/* radius */
+._circle{
+    border-radius: 50%;
+}
+/* ring */
+._ringWhite{
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+._ringWhiteSelected{
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+._ringPink{
+    border-radius: 50%;
+    border: 1px solid #f66796;
+}
+._ringPinkSelected{
+    background-color: #f66796;
+    border-radius: 50%;
+    border: 1px solid #f66796;
+}
+._ringStep{
+    background-color: #fafafa;
+    border-radius: 50%;
+    border: 1px solid #dcdcdc;
+}
+._ringStepCompleted{
+    background-color: #fd719f;
+    border-radius: 50%;
+    border: 1px solid #fafafa;
+}
+/* button */
+._buttonPink{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border: 2px solid #fd719f;
+    border-radius: 18px;
+}
+._buttonPink:hover{
+    border: 2px solid #fe6094;
+}
+._buttonDarkPink{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border: 2px solid #fe6094;
+    border-radius: 18px;
+}
+._buttonGray{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border: 2px solid #4b4b4b;
+    border-radius: 18px;
+}
+._buttonGray:hover{
+    border: 2px solid #464545;
+}
+/* SearchBox */
+._SearchBox{
+    width: 323px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 49px 0 23px;
+    border: 2px solid #fd719f;
+    border-radius: 25px;
+    outline: none;
+}
+._searchImg{
+    outline: none;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+/* text overflow */
+._singleLineText{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+ }
+/* size */
+._paved{
+    width: 100%;
+    height: 100%;
+}
+/* fontSize */
+._fontS1{
+    font-size: 22px;
+}
+._fontS2{
+    font-size: 20px;
+}
+._fontS3{
+    font-size: 18px;
+}
+._fontS4{
+    font-size: 16px;
+}
+._fontS5{
+    font-size: 14px;
+}
+/* fontWeight */
+._fontThin{
+    font-weight: 200;
+}
+._fontMid{
+    font-weight: 400;
+}
+._fontFat{
+    font-weight: 600;
+}
+/* textStyle */
+._textCenter{
+    text-align: center;
+}
+/* backgroundColor */
+._colorRed{
+    background-color: #ff5353;
+}
+._colorYellow{
+    background-color: #ffbe2a;
+}
+._colorWhite{
+    background-color: #ffffff;
+}
+._colorBlue{
+    background-color: #2362a6;
+}
+._colorLightGreen{
+    background-color: #cde8ba;
+}
+._colorGreen{
+    background-color: #3af489;
+}
+._colorPink{
+    background-color: #f66796;
+}
+._colorDarkPink{
+    background-color: #f25e8f;
+}
+._colorGray{
+    background-color: #f4f4f4;
+}
+._colorDarkGray{
+    background-color: #4b4b4b;
+}
+._colorLightBlack{
+    background-color: #333333;
+}
+._colorBlack{
+    background-color: #000000;
+}
+/* fontColor */
+._fontWhite{
+    color: #ffffff;
+}
+._fontLightGreen{
+    color: #cde8ba;
+}
+._fontYellow{
+    color: #fba748;
+}    
+._fontPink{
+    color: #f66796;
+}
+._fontGray{
+    color: #a6a6a6;
+}
+._fontDarkGray{
+    color: #737373;
+}
+._fontBlack{
+    color: #343434;
+}
+/* position */
+._relative{
+    position:relative;
+}
+._absolute{
+    position:absolute;
+}
+._UpperLeft{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+._UpperRight{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+._LowerLeft{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+._LowerRight{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}

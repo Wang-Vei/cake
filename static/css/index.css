@@ -1,15 +1,15 @@
+section{
+    width: 100%;
+}
 /* headerBackground */
 #indexHdBg{
     width: 100%;
     background-image: url("../img/main/hdbg.png");
     background-repeat: no-repeat;
-    background-size: 1042px 689px;
+    background-size: 937px 620px;
     background-position: top right;
 }
 /* topBanner */
-section{
-    width: 100%;
-}
 #topBanner{
     margin-top: 5px;
     background-image: url("../img/main/bannerBg.png");
@@ -140,4 +140,45 @@ section{
     height: 7px;
     margin: 0 4px;
 }
-
+/* discount */
+#discount{
+    background-image: url("../img/main/discountBg.png");
+    background-repeat: no-repeat;
+    background-size: 505px 668px;
+    background-position: bottom left;
+}
+.discount{
+    width: 1200px;
+    height: 2000px;
+}
+.discount .discountLeft{
+    width: 50%;
+    height: 1850px;
+    background-color: aqua;
+}
+.discount .discountRight{
+    width: 50%;
+    height: 1850px;
+    background-color: aliceblue;
+}
+.discount .hotImg{
+    width: 1200px;
+    height: 150px;
+    background-color: blue;
+}
+.discount .discountChild{
+    width: 490px;
+    height: 690px;
+}
+.discount .discountChild .discountChildImg{
+    width: 490px;
+    height: 490px;
+    overflow: hidden;
+}
+.discountChildImg .discountNum{
+    z-index: 100;
+}
+.discountChildImg .discountChildImgInside{
+    display: none;
+    z-index: 10;
+}

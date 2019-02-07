@@ -1,7 +1,7 @@
 // Banner
 function banner(bannerArea,bannerChildNode,bannerButtonNode,bannerButtonNodeClassList,bannerButtonNodeSelectedClassList,intervalTime){
     // bannerArea[element],bannerChildNode[className string],bannerButtonNode[className string],bannerButtonNodeClassList[className string],bannerButtonNodeSelectedClassList[className string],intervalTime[millisecond int]
-    // e.g. banner(topBanner,'topBannerChild','topBannerButton','_ringWhite','_ringWhiteSelected')
+    // example: banner(topBanner,'topBannerChild','topBannerButton','_ringWhite','_ringWhiteSelected')
     let bannerChild = bannerArea.querySelectorAll("."+bannerChildNode);
     let bannerButton = bannerArea.querySelectorAll("."+bannerButtonNode);
     if(bannerChild.length!=bannerButton.length){
@@ -37,20 +37,29 @@ function banner(bannerArea,bannerChildNode,bannerButtonNode,bannerButtonNodeClas
 
 // topBanner
 const topBanner = document.querySelector("#topBanner");
-banner(topBanner,'topBannerChild','topBannerButton','_ringWhite','_ringWhiteSelected',3000)
+banner(topBanner,'topBannerChild','topBannerButton','_ringWhite','_ringWhiteSelected',3000);
 // newBanner
 const newBanner = document.querySelector("#newBanner");
-banner(newBanner,'newBannerChild','newBannerButton','_ringPink','_ringPinkSelected',3000)
+banner(newBanner,'newBannerChild','newBannerButton','_ringPink','_ringPinkSelected',3000);
+
+// show
+function show(showArea,triggerNode,hiddenNode){
+    // showArea[element],triggerNode[className string],hiddenNode[className string]
+    // example: show(recommend,'recommendChild','recommendMore')
+    trigger = showArea.querySelectorAll("."+triggerNode)
+    trigger.forEach(function(ele){
+        ele.onmouseenter=()=>{
+            ele.querySelector("."+hiddenNode).style.display="block";
+        }
+        ele.onmouseleave=()=>{
+            ele.querySelector("."+hiddenNode).style.display="none";
+        }
+    })
+}
 
 // recommend
 const recommend = document.querySelector("#recommend");
-let recommendChild = recommend.querySelectorAll(".recommendChild");
-let recommendMore = recommend.querySelectorAll(".recommendMore");
-recommendChild.forEach(function(ele,index){
-    ele.onmouseenter=()=>{
-        recommendMore[index].style.display="block";
-    }
-    ele.onmouseleave=()=>{
-        recommendMore[index].style.display="none";
-    }
-})
+show(recommend,'recommendChild','recommendMore');
+// discount
+const discount = document.querySelector("#discount");
+show(discount,'discountChildImg','discountChildImgInside');

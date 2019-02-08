@@ -149,36 +149,76 @@ section{
 }
 .discount{
     width: 1200px;
-    height: 2000px;
+    height: 2010px;
 }
 .discount .discountLeft{
     width: 50%;
     height: 1850px;
-    background-color: aqua;
 }
 .discount .discountRight{
     width: 50%;
     height: 1850px;
-    background-color: aliceblue;
 }
 .discount .hotImg{
     width: 1200px;
-    height: 150px;
-    background-color: blue;
+    height: 160px;
 }
 .discount .discountChild{
     width: 490px;
     height: 690px;
 }
-.discount .discountChild .discountChildImg{
+.discountChild .discountNum{
+    z-index: 100;
+}
+.discountChild .discountChildImgOutside,.discountChild .discountChildImgInside{
     width: 490px;
     height: 490px;
     overflow: hidden;
 }
-.discountChildImg .discountNum{
-    z-index: 100;
-}
-.discountChildImg .discountChildImgInside{
+.discountChild .discountChildImgInside{
     display: none;
     z-index: 10;
+}
+.discount .discountChild .discountChildContent{
+    width: 490px;
+    height: 128px;
+    margin-top: 45px;
+}
+.discountChildContent p{
+    height: 65px;
+    line-height: 65px;
+}
+.discountChildContent a{
+    bottom: 2px;
+    right: 2px;
+}
+.discount #discountChildOne{
+    margin-top: 125px;
+    margin-left: 110px; 
+}
+.discount #discountChildOne .discountNum{
+    top: 40px;
+    left: -90px;
+}
+.discount #discountChildTwo{
+    margin-top: 390px;
+}
+.discount #discountChildTwo .discountNum{
+    top: -135px;
+    left: 12px;
+}
+.discount #discountChildThree{
+    margin-top: 310px;
+    margin-left: 90px;
+}
+.discount #discountChildThree .discountNum{
+    top: 90px;
+    left: -140px;
+}
+/* hot */
+#hot{
+    margin-bottom: 60px; 
+}
+.hot{
+    margin: 75px 0;
 }

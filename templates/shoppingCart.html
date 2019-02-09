@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/shoppingCart.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <title>购物车</title>
+</head>
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div class="hd _center _flaxBetween _flaxAlignCenter">
+            <div>
+                <a href=""><div class="_buttonPink _fontS2 _fontThin _colorPink _fontWhite">登录</div></a>
+                <a href=""><div class="_buttonPink _fontS2 _fontThin _colorWhite _fontDarkGray">注册</div></a>
+            </div>
+            <div class="_relative">
+                <input type="text" class="_SearchBox">
+                <input type="image" src="../static/img/main/search.png" class="_searchImg">
+            </div>
+        </div>
+        <div class="_colorPink">
+            <div class="nav _center _colorWhite _flaxBetween _flaxAlignCenter">
+                <div class="navLeft _colorPink"></div>
+                <img src="../static/img/main/navLogo.png" alt="">
+                <div class="navRight _colorPink _fontWhite">
+                    <div class="navBar _floatLeft _flaxBetween _fontS2 _fontThin _fontWhite _textCenter">
+                        <a href=""><div class="navBtsSelected"><p>爱礼推荐</p><p class="_fontS4">LOVE GIFT</p></div></a>
+                        <a href=""><div class="navBts"><p>马卡龙</p><p class="navBtsIn _fontS4" style="display:none;">MACAROON</p></div></a>
+                        <a href=""><div class="navBts"><p>甜甜圈</p><p class="navBtsIn _fontS4" style="display:none;">DOUGHNUT</p></div></a>
+                        <a href=""><div class="navBts"><p>零食糕点</p><p class="navBtsIn _fontS4" style="display:none;">PASTRY</p></div></a>
+                    </div>
+                    <div class="conBar _floatRight _flaxBetween _flaxAlignCenter">
+                        <a href="" class="_relative">
+                            <img src="../static/img/main/ShoppingCart.png" alt="" title="购物车" width="26" height="26">
+                            <div class="shoppingCartNum _circle _colorRed _fontS5 _fontWhite _textCenter">0</div>
+                        </a>
+                        <a href=""><img src="../static/img/main/information.png" alt="" title="个人中心" width="26" height="26"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 顶部结束 -->
+
+    <!-- 订单进程 -->
+    <section id="step">
+        <div class="step _fontGray _fontThin _colorGray _center _flaxCenter">
+            <div class="stepChild _flaxAlignCenter">
+                <div class="stepButton _ringStepCompleted"></div>
+                <div>
+                    <div><span class="_fontS1 _fontPink _fontMid">购物车</span>SHOPPING CAR</div>
+                </div>
+            </div>
+            <div class="stepChild _flaxAlignCenter">
+                <div class="stepButton _ringStep"></div>
+                <div>
+                    <div><span class="_fontS1 _fontDarkGray _fontMid">提交订单</span>SUPPORT ORDERING</div>
+                </div>
+            </div>
+            <div class="stepChild _flaxAlignCenter">
+                <div class="stepButton _ringStep"></div>
+                <div>
+                    <div><span class="_fontS1 _fontDarkGray _fontMid">支付完成</span>THE PAYMENT</div>
+                </div>
+            </div>
+            <div class="stepChild _flaxAlignCenter">
+                <div class="stepButton _ringStep"></div>
+                <div>
+                    <div><span class="_fontS1 _fontDarkGray _fontMid">订单完成</span>ORDER SUCCESS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 订单进程结束 -->
+
+    <!-- 购物车 -->
+    <section id="shoppingCart">
+        <div class="shoppingCart _center">
+            <div class="shoppingCartImg"><img src="../static/img/main/shoppingCar.png" alt="" width="320" height="90"></div>
+            <div class="tableHead _fontS1 _fontDarkGray _fontMid _colorGray _flaxBetween _flaxAlignCenter">
+                <div class="selectAll _flaxBetween _flaxAlignCenter">
+                    <div class="_ringStep"></div>
+                    <span>全选</span>
+                </div>
+                <span class="information _textCenter">商品信息</span>
+                <span class="price _textCenter">单价</span>
+                <span class="num _textCenter">数量</span>
+                <span class="subPrice _textCenter">小计</span>
+                <span class="operation _textCenter">操作</span>
+            </div>
+            <div class="tableBody">
+                <div class="item _colorWhite _flaxBetween _flaxAlignCenter">
+                    <div class="select _ringStep"></div>
+                    <div class="itemImg _flaxAlignCenter"><img src="../static/img/images/recommend2.png" alt="" width="140"></div>
+                    <div class="itemContent">
+                        <p class="_singleLineText _fontS1 _fontBlack _fontMid">芒果奶油蜂蜜蛋糕</p>
+                        <p class="itemIntroduce _fontS4 _fontDarkGray _fontMid">cake配方芒果香果慕水果百香果慕斯夹心1盒8粒装</p>
+                    </div>
+                    <div class="price _fontS4 _fontBlack _fontFat _textCenter">268.00</div>
+                    <div class="num _flaxBetween">
+                        <div class="subButton">-</div>
+                        <input type="text" class="numButton" value="1">
+                        <div class="addButton">+</div>
+                    </div>
+                    <div class="subPrice _fontS1 _fontPink _fontFat _textCenter">268.00</div>
+                    <div class="operation _flaxBetween">
+                        <a href=""><div class="_buttonPink _fontS2 _fontThin _colorWhite _fontDarkGray _textCenter" style="width:100px;">删除</div></a>
+                        <a href=""><div class="_buttonPink _fontS2 _fontThin _colorPink _fontWhite _textCenter">移入收藏夹</div></a>
+                    </div>
+                </div>
+                <div class="item _colorGray _flaxBetween _flaxAlignCenter">
+                    <div class="select _ringStepCompleted"></div>
+                    <div class="itemImg _flaxAlignCenter"><img src="../static/img/images/recommend3.png" alt="" width="140"></div>
+                    <div class="itemContent">
+                        <p class="_singleLineText _fontS1 _fontBlack _fontMid">芒果奶油蜂蜜蛋糕</p>
+                        <p class="itemIntroduce _fontS4 _fontDarkGray _fontMid">cake配方芒果香果慕水果百香果慕斯夹心1盒8粒装</p>
+                    </div>
+                    <div class="price _fontS4 _fontBlack _fontFat _textCenter">268.00</div>
+                    <div class="num _flaxBetween">
+                        <div class="subButton">-</div>
+                        <input type="text" class="numButton" value="1">
+                        <div class="addButton">+</div>
+                    </div>
+                    <div class="subPrice _fontS1 _fontPink _fontFat _textCenter">268.00</div>
+                    <div class="operation _flaxBetween">
+                        <a href=""><div class="_buttonPink _fontS2 _fontThin _colorWhite _fontDarkGray _textCenter" style="width:100px;">删除</div></a>
+                        <a href=""><div class="_buttonPink _fontS2 _fontThin _colorPink _fontWhite _textCenter">移入收藏夹</div></a>
+                    </div>
+                </div>
+                <div class="_colorWhite _flaxCenter _flaxAlignCenter">
+                    <div class="_fontS1 _fontDarkGray _textCenter">购物车空空如也</div>
+                </div>
+            </div>
+            <div class="tableFoot">
+                <div class="tableFootBar  _flaxBetween _flaxAlignCenter _fontS1 _fontDarkGray _fontMid">
+                    <div class="selectAll _flaxBetween _flaxAlignCenter">
+                        <div class="_ringStep"></div>
+                        <span>全选</span>
+                    </div>
+                    <a href=""><div class="_buttonPink _fontS2 _fontThin _colorWhite _fontDarkGray _textCenter" style="width:100px;">删除</div></a>
+                    <a href=""><div class="_buttonPink _fontS2 _fontThin _colorPink _fontWhite _textCenter">移入收藏夹</div></a>
+                    <p style="margin-left: 300px;">共选择<span class="_fontFat _fontPink">1</span>件商品</p>
+                    <p>商品价格总计<span class="_fontFat _fontPink">268.00</span></p>
+                </div>
+                <div class="tableFootPay _flaxRight"><a href=""><div class="_buttonPink _fontS2 _fontThin _colorPink _fontWhite _textCenter">去付款</div></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- 购物车结束 -->
+
+    <!-- 推荐产品 -->
+    <section id="recommed">
+        <div class="recommedImg _center"><img src="../static/img/main/recommendedProducts.png" alt="" width="340" height="160"></div>
+        <div class="recommed _center _flaxBetween">
+            <div class="recommedChild _colorWhite">
+                <a href=""><p class="_fontS2 _fontFat _fontDarkGray _textCenter">经典粉色之恋</p></a>
+                <p class="recommedContent _center _fontS5 _fontThin _fontGray _textCenter _singleLineText">天下无敌爱吃小美女</p>
+                <div class="recommedChildImg _center _flaxAlignCenter"> <a href=""><img src="../static/img/images/hot1.png" alt="" width="210px"></div></a>
+                <div class="_fontFat _fontPink _textCenter" style="font-size:28px">268.00<span class="_fontS5 _fontMid">RMB</span></div>
+                <a href="" class="recommedBuy _center"><div class="_buttonPink _fontS4 _colorPink _fontWhite _center">BUY</div></a>
+            </div>
+            <div class="recommedChild _colorWhite">
+                <a href=""><p class="_fontS2 _fontFat _fontDarkGray _textCenter">经典粉色之恋</p></a>
+                <p class="recommedContent _center _fontS5 _fontThin _fontGray _textCenter _singleLineText">天下无敌爱吃小美女</p>
+                <div class="recommedChildImg _center _flaxAlignCenter"> <a href=""><img src="../static/img/images/hot2.png" alt="" width="210px"></div></a>
+                <div class="_fontFat _fontPink _textCenter" style="font-size:28px">268.00<span class="_fontS5 _fontMid">RMB</span></div>
+                <a href="" class="recommedBuy _center"><div class="_buttonPink _fontS4 _colorPink _fontWhite _center">BUY</div></a>
+            </div>
+            <div class="recommedChild _colorWhite">
+                <a href=""><p class="_fontS2 _fontFat _fontDarkGray _textCenter">经典粉色之恋</p></a>
+                <p class="recommedContent _center _fontS5 _fontThin _fontGray _textCenter _singleLineText">天下无敌爱吃小美女</p>
+                <div class="recommedChildImg _center _flaxAlignCenter"> <a href=""><img src="../static/img/images/hot3.png" alt="" width="210px"></div></a>
+                <div class="_fontFat _fontPink _textCenter" style="font-size:28px">268.00<span class="_fontS5 _fontMid">RMB</span></div>
+                <a href="" class="recommedBuy _center"><div class="_buttonPink _fontS4 _colorPink _fontWhite _center">BUY</div></a>
+            </div>
+            <div class="recommedChild _colorWhite">
+                <a href=""><p class="_fontS2 _fontFat _fontDarkGray _textCenter">经典粉色之恋</p></a>
+                <p class="recommedContent _center _fontS5 _fontThin _fontGray _textCenter _singleLineText">天下无敌爱吃小美女</p>
+                <div class="recommedChildImg _center _flaxAlignCenter"> <a href=""><img src="../static/img/images/hot4.png" alt="" width="210px"></div></a>
+                <div class="_fontFat _fontPink _textCenter" style="font-size:28px">268.00<span class="_fontS5 _fontMid">RMB</span></div>
+                <a href="" class="recommedBuy _center"><div class="_buttonPink _fontS4 _colorPink _fontWhite">BUY</div></a>
+            </div>
+        </div>       
+    </section>
+    <!-- 推荐产品结束 -->
+
+    <!-- 底部搜索 -->
+    <section id="bottomSearch">
+        <div style="width:100%;height:1px;"></div> 
+        <div class="bottomSearchLine _colorGray _flaxCenter _relative">
+            <div class="bottomSearch _colorWhite _center _absolute">
+                <input type="text" class="_SearchBox">
+                <input type="image" src="../static/img/main/search.png" class="_searchImg">
+            </div>
+        </div>
+    </section>
+    <!-- 底部搜索结束 -->
+
+    <!-- 底部 -->
+    <footer>
+        <div class="ft _center _colorBlack _fontS4 _fontThin _fontGray _flaxBetween">
+            <div class="contact _flaxBetween">
+                <div>
+                    <p>联系方式</p>
+                    <p class="_fontS2 _fontFat">CONTACT</p>
+                </div>
+                <div>
+                    <p>QQ:1234567800</p>
+                    <p>QQ:1234567800</p>    
+                </div>
+                <div>
+                    <p class="_fontS3 _fontFat">400-987-099</p>
+                </div>
+            </div>
+            <div class="problem _flaxBetween">
+                <div>
+                    <p>常见问题</p>
+                    <p class="_fontS2 _fontFat">PROBLEM</p>
+                </div>
+                <div class="_fontS5 _fontMid _fontDarkGray">
+                    <a href=""><li>购物问题</li></a>
+                    <a href=""><li>物流问题</li></a>
+                    <a href=""><li>支付问题</li></a>
+                    <a href=""><li>售后问题</li></a>
+                    <a href=""><li>其他问题</li></a>
+                </div>
+            </div>
+            <div class="navigation _flaxBetween">
+                <div>
+                    <p>网站导航</p>
+                    <p class="_fontS2 _fontFat">NAVIGATION</p>
+                </div>
+                <div class="_fontS5 _fontMid _fontDarkGray">
+                    <a href=""><li>热门精选</li></a>
+                    <a href=""><li>折扣专区</li></a>
+                    <a href=""><li>会员专区</li></a>
+                    <a href=""><li>本周精选</li></a>
+                    <a href=""><li>全部商品</li></a>
+                </div>
+            </div>
+            <div class="service">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->
+</body>
+<script src="../static/js/shoppingCart.js"></script>
+</html>

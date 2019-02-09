@@ -217,8 +217,74 @@ section{
 }
 /* hot */
 #hot{
-    margin-bottom: 60px; 
+    margin: 60px 0 120px; 
 }
 .hot{
-    margin: 75px 0;
+    width: 1600px;
+    height: 375px;
+    background-image: url("../img/main/hotBg.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 375px;
 }
+.hot .hotrecommed{
+    width: 1200px;
+    height: 491px;
+    top: -50px;
+    left: 200px;
+}
+.hotrecommed .hotChild{
+    width: 276px;
+    height: 430px;
+    padding-top: 55px;
+    border: 3px solid #eeeeee;
+}
+.hotrecommed .hotChild:hover{
+    border: 3px solid #f66796;
+}
+.hotChild .hotContent{
+    width: 240px;
+    height: 35px;
+    line-height: 35px;
+}
+.hotChild .hotChildImg{
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px; 
+}
+.hotChild .hotBuy{
+    display: block;
+    width: 80px;
+    margin-top: 20px;
+}
+/* information */
+#information{
+    margin-bottom: 70px; 
+}
+.information{
+    width: 1200px;   
+}
+.information .more{
+    display: block;
+    width: 96px;   
+}
+.information .inforTop{
+    margin: 50px 0;
+}
+/* bottomSearch */
+#bottomSearch{
+    height: 200px;
+    background-image: url("../img/main/bottomSearchBg.png");
+    background-repeat: no-repeat;
+    background-size: 446px 165px;
+    background-position: bottom right;
+}
+.bottomSearchLine{
+    width: 100%;
+    height: 2px;
+    margin-top: 25px;
+}
+.bottomSearch{
+    width: 400px;
+    top: -25px;
+}
+

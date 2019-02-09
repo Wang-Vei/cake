@@ -1,0 +1,40 @@
+footer{
+    width: 100%;
+    background-color: #000000;
+}
+.ft{
+    width: 1200px;
+    height: 200px;
+    padding: 65px 0;
+}
+.ft li{
+    height: 23;
+    line-height: 23px;
+}
+.ft li:hover{
+    color: #a6a6a6;
+}
+.ft .contact{
+    flex-direction: column;
+}
+.ft .problem{
+    flex-direction: column;
+}
+.ft .navigation{
+    flex-direction: column;
+}
+.ft .service{
+    display: flex;
+    width: 410px;
+    height: 150px;
+    margin: 25px 0; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.ft .service div{
+    width: 188px;
+    height: 58px;
+    border: 1px solid #a6a6a6;
+}

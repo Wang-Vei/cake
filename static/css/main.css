@@ -40,6 +40,7 @@ img{
     justify-content: space-around;
 }
 ._flaxRight{
+    display: flex;
     justify-content: flex-end;
 }
 ._flaxAlignCenter{
@@ -76,12 +77,12 @@ img{
 ._ringStep{
     background-color: #fafafa;
     border-radius: 50%;
-    border: 1px solid #dcdcdc;
+    border: 2px solid #dcdcdc;
 }
 ._ringStepCompleted{
     background-color: #fd719f;
     border-radius: 50%;
-    border: 1px solid #fafafa;
+    border: 2px solid #fafafa;
 }
 /* button */
 ._buttonPink{
@@ -112,7 +113,8 @@ img{
     border-radius: 18px;
 }
 ._buttonGray:hover{
-    border: 2px solid #464545;
+    background-color: #5d5d5d;
+    border: 2px solid #5d5d5d;
 }
 /* SearchBox */
 ._SearchBox{

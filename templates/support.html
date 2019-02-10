@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/step.css">
+    <link rel="stylesheet" href="../static/css/support.css">
+    <link rel="stylesheet" href="../static/font/supportFont.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <title>提交订单</title>
+</head>
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div class="hd _center _flexBetween _flexAlignCenter">
+            <div>
+                <a href=""><div class="_buttonPink _fontS2 _fontThin _colorPink _fontWhite">登录</div></a>
+                <a href=""><div class="_buttonPink _fontS2 _fontThin _colorWhite _fontDarkGray">注册</div></a>
+            </div>
+            <div class="_relative">
+                <input type="text" class="_SearchBox">
+                <input type="image" src="../static/img/main/search.png" class="_searchImg">
+            </div>
+        </div>
+        <div class="_colorPink">
+            <div class="nav _center _colorWhite _flexBetween _flexAlignCenter">
+                <div class="navLeft _colorPink"></div>
+                <img src="../static/img/main/navLogo.png" alt="">
+                <div class="navRight _colorPink _fontWhite">
+                    <div class="navBar _floatLeft _flexBetween _fontS2 _fontThin _fontWhite _textCenter">
+                        <a href=""><div class="navBtsSelected"><p>爱礼推荐</p><p class="_fontS4">LOVE GIFT</p></div></a>
+                        <a href=""><div class="navBts"><p>马卡龙</p><p class="navBtsIn _fontS4" style="display:none;">MACAROON</p></div></a>
+                        <a href=""><div class="navBts"><p>甜甜圈</p><p class="navBtsIn _fontS4" style="display:none;">DOUGHNUT</p></div></a>
+                        <a href=""><div class="navBts"><p>零食糕点</p><p class="navBtsIn _fontS4" style="display:none;">PASTRY</p></div></a>
+                    </div>
+                    <div class="conBar _floatRight _flexBetween _flexAlignCenter">
+                        <a href="" class="_relative">
+                            <img src="../static/img/main/ShoppingCart.png" alt="" title="购物车" width="26" height="26">
+                            <div class="shoppingCartNum _circle _colorRed _fontS5 _fontWhite _textCenter">0</div>
+                        </a>
+                        <a href=""><img src="../static/img/main/information.png" alt="" title="个人中心" width="26" height="26"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 顶部结束 -->
+    
+    <!-- 订单进程 -->
+    <section id="step">
+        <div class="step _fontGray _fontThin _colorGray _center _flexCenter">
+            <div class="stepChild _flexAlignCenter">
+                <div class="stepButton _ringStepCompleted"></div>
+                <div>
+                    <div><span class="_fontS1 _fontPink _fontMid">购物车</span>SHOPPING CAR</div>
+                </div>
+            </div>
+            <div class="stepChild _flexAlignCenter">
+                <div class="stepButton _ringStepCompleted"></div>
+                <div>
+                    <div><span class="_fontS1 _fontPink _fontMid">提交订单</span>SUPPORT ORDERING</div>
+                </div>
+            </div>
+            <div class="stepChild _flexAlignCenter">
+                <div class="stepButton _ringStep"></div>
+                <div>
+                    <div><span class="_fontS1 _fontDarkGray _fontMid">支付完成</span>THE PAYMENT</div>
+                </div>
+            </div>
+            <div class="stepChild _flexAlignCenter">
+                <div class="stepButton _ringStep"></div>
+                <div>
+                    <div><span class="_fontS1 _fontDarkGray _fontMid">订单完成</span>ORDER SUCCESS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 订单进程结束 -->
+
+    <!-- 收货信息 -->
+    <section id="receiving">
+        <div class="receiving _center">
+            <div class="receivingImg _flexBetween _flexAlignCenter">
+                <img src="../static/img/main/receiving.png" alt="收货信息" width="320" height="90">
+                <div id="addAddress" class="_buttonLightGray _fontS4 _colorWhite _fontDarkGray _pointer">新增收货地址+</div>
+            </div>
+            <div class="receivingAddress _fontS4 _fontDarkGray">
+                <div class="addressChildSelected">
+                    <div class="_flexBetween _flexAlignCenter">
+                        <p class="name _fontS2 _fontFat _fontBlack _singleLineText">岳飞飞</p>
+                        <div class="receivingBtSelected">设为默认</div>
+                    </div>
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-location"></span>
+                        <p class="address _singleLineText">山西太原平阳路学府街口凯通大厦2层</p>
+                    </div>                               
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-icon-test"></span>
+                        <p class="phoneNum _singleLineText _fontFat">15110398236</p>
+                        <a href=""><span class="iconfont icon-xiazai43"></span></a>
+                        <a href=""><span class="iconfont icon-del"></span></a>
+                    </div>
+                </div>
+                <div class="addressChild">
+                    <div class="_flexBetween _flexAlignCenter">
+                        <p class="name _fontS2 _fontFat _fontBlack _singleLineText">岳飞飞</p>
+                        <div class="receivingBt">设为默认</div>
+                    </div>
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-location"></span>
+                        <p class="address _singleLineText">山西太原平阳路学府街口凯通大厦2层</p>
+                    </div>                               
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-icon-test"></span>
+                        <p class="phoneNum _singleLineText _fontFat">15110398236</p>
+                        <a href=""><span class="iconfont icon-xiazai43"></span></a>
+                        <a href=""><span class="iconfont icon-del"></span></a>
+                    </div>                    
+                </div>
+                <div class="addressChild">
+                    <div class="_flexBetween _flexAlignCenter">
+                        <p class="name _fontS2 _fontFat _fontBlack _singleLineText">岳飞飞</p>
+                        <div class="receivingBt">设为默认</div>
+                    </div>
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-location"></span>
+                        <p class="address _singleLineText">山西太原平阳路学府街口凯通大厦2层</p>
+                    </div>                               
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-icon-test"></span>
+                        <p class="phoneNum _singleLineText _fontFat">15110398236</p>
+                        <a href=""><span class="iconfont icon-xiazai43"></span></a>
+                        <a href=""><span class="iconfont icon-del"></span></a>
+                    </div>                    
+                </div>
+                <div class="addressChild">
+                    <div class="_flexBetween _flexAlignCenter">
+                        <p class="name _fontS2 _fontFat _fontBlack _singleLineText">岳飞飞</p>
+                        <div class="receivingBt">设为默认</div>
+                    </div>
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-location"></span>
+                        <p class="address _singleLineText">山西太原平阳路学府街口凯通大厦2层</p>
+                    </div>                               
+                    <div class="_flexLeft _flexAlignCenter">
+                        <span class="iconfont icon-icon-test"></span>
+                        <p class="phoneNum _singleLineText _fontFat">15110398236</p>
+                        <a href=""><span class="iconfont icon-xiazai43"></span></a>
+                        <a href=""><span class="iconfont icon-del"></span></a>
+                    </div>                    
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- 收货信息结束 -->
+
+    <!-- 支付方式 -->
+    <section id="payment">
+        <div class="payment _center">
+            <div class="paymentImg">
+                <img src="../static/img/main/payment.png" alt="支付方式" width="320" height="90">
+            </div>
+            <div class="paymentChoice _flexBetween">
+                <div class="paymentChoiceChild _flexBetween">
+                    <p class="_fontS1 _fontDarkGray">在线支付(推荐)</p>
+                    <p class="_fontS5 _fontGray">支持主流银行卡、微信、支付宝、银联等平台付款，方便快捷</p>
+                </div>
+                <div class="paymentChoiceChild _flexBetween">
+                    <p class="_fontS1 _fontDarkGray">货到付款</p>
+                    <p class="_fontS5 _fontGray">部分站点不支持刷卡支付，具体请咨询您当地快递公司</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 支付方式结束 -->
+
+    <!-- 订单商品信息 -->
+    <section id="commodity">
+        <div class="commodity _center">
+            <div class="commodityImg _flexBetween _flexAlignCenter">
+                <img src="../static/img/main/commodity.png" alt="订单商品信息" width="320" height="90">
+                <a href=""><div id="addAddress" class="_buttonLightGray _fontS4 _colorWhite _fontDarkGray _pointer">返回购物车</div></a>
+            </div>
+            <div class="commodityHead _fontS2 _fontDarkGray _colorGray _flexBetween _flexAlignCenter">
+                <p class="information _textCenter">商品信息</p>
+                <p class="price _textCenter">单价</p>
+                <p class="num _textCenter">数量</p>
+                <p class="subPrice _textCenter">小计</p>
+            </div>
+            <div class="commodityBody">
+                <div class="commodityBodyChild _colorWhite _flexBetween _flexAlignCenter">
+                    <div class="information _flexBetween _flexAlignCenter">
+                        <div class="commodityBodyChildImg _flexAlignCenter"><img src="../static/img/images/recommend2.png" alt="" width="140"></div>
+                        <div class="commodityBodyChildContent">
+                            <p class="_singleLineText _fontS1 _fontBlack _fontMid">芒果奶油蜂蜜蛋糕</p>
+                            <p class="commodityBodyChildIntroduce _fontS4 _fontDarkGray _fontMid">cake配方芒果香果慕水果百香果慕斯夹心1盒8粒装</p>
+                        </div>
+                    </div>    
+                    <div class="price _fontS4 _fontBlack _fontFat _textCenter">268.00</div>
+                    <div class="num _flexBetween">
+                        <div class="subButton">-</div>
+                        <input type="text" class="numButton" value="1">
+                        <div class="addButton">+</div>
+                    </div>
+                    <div class="subPrice _fontS1 _fontPink _fontFat _textCenter">268.00</div>
+                </div>
+            </div>
+            <div class="commodityFoot _flexRight _flexAlignCenter _fontS2 _fontDarkGray _fontMid">
+                <p>共选择</p>
+                <span class="_fontFat _fontPink">1</span>
+                <p style="margin-right:100px;">件商品</p>
+                <p>商品价格总计</p>
+                <span class="_fontFat _fontPink">268.00</span>
+            </div>
+        </div>
+    </section>
+    <!-- 订单商品信息结束 -->
+
+    <!-- 底部 -->
+    <footer>
+        <div class="ft _center _colorBlack _fontS4 _fontThin _fontGray _flexBetween">
+            <div class="contact _flexBetween">
+                <div>
+                    <p>联系方式</p>
+                    <p class="_fontS2 _fontFat">CONTACT</p>
+                </div>
+                <div>
+                    <p>QQ:1234567800</p>
+                    <p>QQ:1234567800</p>    
+                </div>
+                <div>
+                    <p class="_fontS3 _fontFat">400-987-099</p>
+                </div>
+            </div>
+            <div class="problem _flexBetween">
+                <div>
+                    <p>常见问题</p>
+                    <p class="_fontS2 _fontFat">PROBLEM</p>
+                </div>
+                <div class="_fontS5 _fontMid _fontDarkGray">
+                    <a href=""><li>购物问题</li></a>
+                    <a href=""><li>物流问题</li></a>
+                    <a href=""><li>支付问题</li></a>
+                    <a href=""><li>售后问题</li></a>
+                    <a href=""><li>其他问题</li></a>
+                </div>
+            </div>
+            <div class="navigation _flexBetween">
+                <div>
+                    <p>网站导航</p>
+                    <p class="_fontS2 _fontFat">NAVIGATION</p>
+                </div>
+                <div class="_fontS5 _fontMid _fontDarkGray">
+                    <a href=""><li>热门精选</li></a>
+                    <a href=""><li>折扣专区</li></a>
+                    <a href=""><li>会员专区</li></a>
+                    <a href=""><li>本周精选</li></a>
+                    <a href=""><li>全部商品</li></a>
+                </div>
+            </div>
+            <div class="service">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->    
+</body>
+<script src="../static/js/header.js"></script>
+<script src="../static/js/support.js"></script>
+</html>

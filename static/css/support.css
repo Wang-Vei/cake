@@ -1,0 +1,217 @@
+section{
+    width: 100%;
+}
+/* receiving */
+#receiving{
+    margin: 80px 0;
+}
+.receiving{
+    width: 1200px;
+    height: auto;
+}
+.receiving .receivingImg{
+    width: 100%;
+    height: 90px;
+}
+.receiving .receivingAddress{
+    widows: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.receivingAddress .addressChild,.receivingAddress .addressChildSelected{
+    width: 330px;
+    height: 100px;
+    padding: 25px;
+    margin: 11px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.receivingAddress .addressChild{   
+    border: 3px solid #f4f4f4;
+}
+.receivingAddress .addressChildSelected{
+    border: 3px solid #fd719f;
+}
+.receivingAddress .addressChild:hover{
+    border: 3px solid #fd719f;
+}
+.receivingAddress .name{
+    margin-left: 30px;
+    max-width: 180px; 
+}
+.receivingAddress .receivingBt,.receivingAddress .receivingBtSelected{
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 18px;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.receivingAddress .receivingBt{  
+    border: 2px solid #efefef;
+    background-color: #efefef;
+    color: #343434;
+}
+.receivingAddress .receivingBt:hover{
+    border-color: #fd719f;
+    background-color: #fd719f;
+    color: #ffffff;
+}
+.receivingAddress .receivingBtSelected{
+    border: 2px solid #fd719f;
+    background-color: #fd719f;  
+    color: #ffffff;
+}
+.receivingAddress span{
+    font-size:20px;
+}
+.receivingAddress a{
+    margin-left: 10px;
+}
+.receivingAddress a:hover{
+    color: #f66796;
+}
+.receivingAddress .address{
+    margin-left: 10px;
+    max-width: 290px;
+}
+.receivingAddress .phoneNum{
+    margin-left: 10px;
+    width: 240px;
+    max-width: 240px;
+}
+/* payment */
+#payment{
+    margin: 80px 0;
+}
+.payment{
+    width: 1200px;
+    height: auto;
+    border-top: 3px solid #f4f4f4;
+    border-bottom: 3px solid #f4f4f4;
+}
+.payment .paymentChoice{
+    widows: 1200px;
+    padding: 0 220px 0 30px;
+    flex-wrap: wrap;
+}
+.paymentChoice .paymentChoiceChild,.paymentChoice .paymentChoiceChildSelected{
+    width: 390px;
+    height: 50px;
+    padding: 25px 30px;
+    margin-bottom:38px;
+    cursor: pointer;
+    flex-direction: column;
+}
+.paymentChoice .paymentChoiceChild{
+    border: 3px solid #f4f4f4;
+}
+.paymentChoice .paymentChoiceChild:hover{
+    border-color: #fd719f;
+}
+.paymentChoice .paymentChoiceChildSelected{
+    border: 3px solid #fd719f;
+}
+/* commodity */
+#commodity{
+    margin-top: 80px;
+    background-image: url("../img/main/stepBottomSearchBg.png");
+    background-repeat: no-repeat;
+    background-size: 225px 225px;
+    background-position: bottom left;
+}
+.commodity{
+    width: 1200px;
+    height: auto;
+}
+.commodity .commodityHead{
+    width: 1114px;
+    height: 57px;
+    padding: 0 43px;
+}
+.commodity .commodityBody{
+    width: 1194px;
+    height: auto;
+    border: 3px solid #f4f4f4;
+    margin: 40px 0;
+}
+.commodity .information{
+    width: 440px;
+}
+.commodity .price{
+    width: 120px;
+}
+.commodity .num{
+    width: 130px;
+}
+.commodity .subPrice{
+    width: 140px;
+}
+.commodityBody .commodityBodyChild{
+    width: 1114px;
+    height: 140px;
+    padding: 0 40px;
+    margin: 15px 0;  
+}
+.commodityBody .commodityBodyChildImg{
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+}
+.commodityBody .commodityBodyChildContent{
+    width: 260px;
+    height: 100px;
+    padding: 20px;
+}
+.commodityBody .commodityBodyChildIntroduce{
+    height: 50px;
+    margin-top: 10px;
+    line-height: 25px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+}
+.commodityBody .commodityBodyChild .num .addButton,.commodityBody .commodityBodyChild .num .subButton{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #dcdcdc;
+    background-color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 16px;
+    color: #dcdcdc; 
+}
+.commodityBody .commodityBodyChild .num .addButton:hover,.commodityBody .commodityBodyChild .num .subButton:hover{
+    border: 2px solid #b9b9b9;
+    cursor: pointer; 
+}
+.commodityBody .commodityBodyChild .num .numButton{
+    width: 70px;
+    height: 18px;
+    margin: 0 5px;
+    border-radius: 9px;
+    border: 2px solid #dcdcdc;
+    color: #b9b9b9; 
+    text-align: center;
+    outline: none;
+}
+.commodityBody .commodityBodyChild .num .numButton:focus{
+    border: 2px solid #b9b9b9;
+}
+.commodity .commodityFoot{
+    width: 1200px;
+    height: 50px;
+    padding-bottom: 80px;
+}
+.commodityFoot span{
+    margin: 0 7px;
+    font-size: 28px; 
+}

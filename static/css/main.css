@@ -23,27 +23,27 @@ img{
     float: right
 }
 /* flex */
-._flaxLeft{
+._flexLeft{
     display: flex;
     justify-content: flex-start;
 }
-._flaxCenter{
+._flexCenter{
     display: flex;
     justify-content: center;
 }
-._flaxBetween{
+._flexBetween{
     display: flex;
     justify-content: space-between;
 }
-._flaxAround{
+._flexAround{
     display: flex;
     justify-content: space-around;
 }
-._flaxRight{
+._flexRight{
     display: flex;
     justify-content: flex-end;
 }
-._flaxAlignCenter{
+._flexAlignCenter{
     display: flex;
     align-items: center;
 }
@@ -115,6 +115,17 @@ img{
 ._buttonGray:hover{
     background-color: #5d5d5d;
     border: 2px solid #5d5d5d;
+}
+._buttonLightGray{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border: 2px solid #f4f4f4;
+    border-radius: 18px;
+}
+._buttonLightGray:hover{
+    border: 2px solid #e0e0e0;
 }
 /* SearchBox */
 ._SearchBox{

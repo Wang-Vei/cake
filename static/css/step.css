@@ -1,0 +1,21 @@
+#step{
+    width: 100%;
+    margin: 25px 0;
+}
+.step{
+    width: 1055px;
+    height: 71px;
+    border-radius: 35px; 
+    font-size: 10px;
+}
+.step .stepChild{
+    height: 100%;
+    margin: 0 10px;
+}
+.stepChild .stepButton{
+    width: 10px;
+    height: 10px;
+}
+.stepChild span{
+    margin: 0 5px;
+}

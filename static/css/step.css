@@ -12,6 +12,29 @@
     height: 100%;
     margin: 0 10px;
 }
+.step .stepButtonLine{
+    width: 150px;
+    height: 0;
+    border-bottom: 3px dotted #e4e4e4;
+}
+.step .stepButtonLine::before{
+    content:"";
+    display: block;
+    float: left;
+	width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #f66796;
+}
+.step .stepButtonLine::after{
+    content:"";
+    display: block;
+    float: right;
+	width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #f66796;
+}
 .stepChild .stepButton{
     width: 10px;
     height: 10px;

@@ -1,0 +1,82 @@
+section{
+    width: 100%;
+}
+/* success */
+#success{
+    margin: 25px 0;
+}
+.success{
+    width: 1200px;
+    height: 415px;
+}
+.success .successBg{
+    width: 900px;
+    height: 141px;
+}
+.successBg .bigBubble,.successBg .smallBubble{
+    position: relative;
+    box-shadow: 0 0 20px 10px #f5f5f5;
+}
+.successBg .bigBubble{
+    width: 500px;
+    height: 141px;
+    border-radius: 70px;
+}
+.successBg .smallBubble{
+    width: 28px;
+    height: 28px;
+    margin: 93px 0 20px;
+    border-radius: 50%;
+}
+.successBg .bigBubble::before{
+    content:"";
+    display: block;
+	width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px #f5f5f5;
+    position: absolute;
+    top: -14px;
+    left: -140px;
+}
+.successBg .smallBubble::after{
+    content:"";
+    display: block;
+	width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px #f5f5f5;
+    position: absolute;
+    top: 48px;
+    left: 96px;   
+}
+.success .successContent{
+    width: 1200px;
+    height: 415px;
+}
+.successContent .successImg{
+    width: 415px;
+    height: 415px;
+}
+.successContent p{
+    height: 23px;
+    line-height: 23px;
+}
+.successContent p span{
+    font-weight: 600;
+}
+/* choice */
+#choice{
+    margin: 25px 0;
+}
+.choice{
+    width: 1200px;
+}
+.choice a{
+    margin: 0 15px;
+}
+.choice a div:hover{
+    border-color: #e75988!important;
+}
+
+

@@ -1,0 +1,148 @@
+section{
+    width: 100%;
+}
+/* tips */
+#tips{
+    margin: 25px 0;
+}
+.tips{
+    width: 1200px;
+    height: 300px;
+}
+.tips .tipsImg{
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+}
+.tips .tipsContent{
+    margin-top: 140px; 
+}
+.tipsContent .tipsContentTop{
+    width: 520px;
+    height: 60px;
+    padding: 0 40px;
+    border-radius: 30px;
+    font-size: 26px;
+    line-height: 60px;
+    z-index: 10;
+}
+.tipsContent .cir{
+    width: 30px;
+    height: 45px;
+    border-radius: 50%;
+    background: #ffbe2a;
+    top: -7px;
+    left: -8px;
+    z-index: 1;
+}
+.tipsContent .cir div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.tipsContent .tipsContentBottom{
+    margin-top: 65px;
+}
+.tipsContent .tipsContentBottom p{
+    width: 900px;
+    height: 24px;
+    line-height: 24px;
+}
+/* payment */
+#payment{
+    margin-top: 25px;
+    padding-bottom: 100px;
+    background-image: url("../img/main/payMentBg.png");
+    background-repeat: no-repeat;
+    background-size: 225px 225px;
+    background-position: bottom right;
+}
+.payment{
+    width: 1200px;
+    height: auto;
+}
+.payment .paymentImg{
+    width: 1200px;
+    height: 30px;
+    margin: 30px 0;
+}
+.payment .paymentImg #icon{
+    width: 14px;
+    height: 14px;
+    margin: 0 25px 0 10px;
+    background-color: #ffffff;
+    border: 2px solid #313131;
+    border-radius: 50%;
+}
+.payment .paymentImg #icon #iconInside{
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    background-color: #d11818;
+    border: 2px solid #999999;
+    border-radius: 50%;
+}
+.payment .creditCard,.payment .thirdParty{
+    width: 1000px;
+    height: auto;
+    margin-left: 50px;
+}
+.creditCard .creditCardBox,.thirdParty .thirdPartyBox{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.creditCard .creditCardBox{
+    width: 1000px;
+}
+.thirdParty .thirdPartyBox{
+    width: 820px;
+}
+.creditCardBox .creditCardChild,.thirdPartyBox .thirdPartyChild{
+    height: 48px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 2px solid;
+}
+.creditCardBox .creditCardChild{
+    width: 213px;
+}
+.thirdPartyBox .thirdPartyChild{
+    width: 234px;
+}
+.creditCardBox .creditCardChild,.thirdPartyBox .thirdPartyChild{
+    border-color: #e5e5e5;
+}
+.creditCardChild:hover,.thirdPartyChild:hover,.childSelected{
+    border-color: #ff1212!important;
+}
+.childSelected{
+    position: relative;
+}
+.childSelected::before{
+    content:"√";
+    display: block;
+	width: 25px;
+    height: 25px;
+    background-color: #ff1212;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: center;
+}
+.payment .payNowBt{
+    margin: 30px 0;
+    cursor: pointer;
+}
+.payment .payNowBt:hover{
+    border-color: #e75988;
+    background-color: #e75988;
+}
